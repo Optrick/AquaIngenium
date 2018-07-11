@@ -1,0 +1,288 @@
+/*!
+* Media Quieries
+* Conception OptrickMedia.com
+*/
+
+/* ---------------------------------------
+Mobile devise 467px             */
+@media screen and (max-width: 468px) {
+  #L-AI-mini{
+    max-height: 110px;
+  }
+  .logoAquaIngenium {
+  	padding: 0;
+    margin-bottom: 15px !important;
+  }
+  .m-navbar-toggler {
+    margin: 0 auto !important;
+  }
+  .navbar-toggler {
+    margin-right: 0 !important;
+  }
+  small .m-navbar-toggler {
+    padding: 0;
+  }
+  .carousel-item {
+    margin-left: -15px !important;
+  }
+  .carousel-indicators {
+    bottom: 45px !important;
+    margin-left: 25px !important;
+    right: auto !important;
+    left: auto !important;
+  }
+  .slide {
+    height: 420px !important;
+  }
+  .b-grey.span7, .b-bleu20.span7{
+    border-radius: 0;
+    margin-left: -20px !important;
+    width: 400px !important;
+    padding-top: 10px;
+    padding-right: 90px;
+  }
+  .marginbottom {
+    margin-bottom: 10px !important;
+  }
+  .tabs {
+    margin: 0 auto !important;
+    max-width: 300px;
+  }
+  .tabs label {
+    min-width: 50% !important;
+  }
+  .content div{
+    padding: 10px 15px !important;
+  }
+  .content {
+    min-height: 580px !important;
+  }
+  .content {
+    width: 100% !important;
+  }
+  ul.G-valeur li {
+    font-size: 1.5em;
+  }
+}
+/* ---------------------------------------
+Small devise 766px             */
+@media (max-width:766px) {
+  .margin2 {
+		margin-top: 4%;
+	}
+	.padding2-25px{
+		padding: 25px 0 !important;
+	}
+	.padding-mobile{
+		padding-top: 8% !important;
+	}
+	.m-text{
+		width: 90% !important;
+		margin: 0 auto !important;
+	}
+	.navbar {
+    height: 160px;
+	}
+	.navbar-nav.nav.ml-md-auto {
+    background: #f8f9fa !important;
+	}
+	.navbar .brand{
+		font-size: 2.2em !important;
+	}
+	.navbar .brand {
+		margin: 0 0 0 10px !important;
+	}
+	.navbar.navbar-expand-lg.navbar-light {
+		margin-top: 16px;
+	}
+	.slide {
+		height: 460px;
+	}
+  h1.header {
+    text-align: left;
+    font-size: 3em;
+  }
+	.photo {
+		height: 450px !important;
+		margin: 0 auto;
+		max-width: 600px;
+		margin-top: 0 !important;
+	}
+	#vignette {
+		padding-left: 35px !important;
+	}
+	.half {
+		width: 100%;
+	}
+	.photo {
+		margin-top: 0 !important;
+	}
+  .content {
+    width: 70%;
+  }
+  #APropos-top-desktop {
+    background: rgb(78,171,213);
+  }
+  ul.G-valeur {
+    margin: 0;
+  }
+	.portrait{
+		width: 400px !important;
+	}
+	.map {
+		background: url(../img/Carte_Mobile.jpg) no-repeat center;
+		margin-bottom: 50px;
+		/*margin-top: 649px !important; */
+		float: left !important;
+	}
+}
+/* ---------------------------------------
+Small devise 766px             */
+@media (max-width:990px) {
+  .display-3 {
+    font-size: 2.2em !important;
+  }
+  .carousel-caption {
+    bottom: 10% !important;
+    text-align: left !important;
+    padding-right: 45px;
+    padding-left: 40px;
+  }
+  .navbar-toggler {
+  	margin-right: 75px;
+  }
+}
+/* ---------------------------------------
+tablette ro small screen 767px - 990     */
+@media (max-width:990px) and (min-width: 767px) {
+  .navbar .brand{
+    font-size: 2.7em !important;
+    margin: 0 0 0 10px !important;
+  }
+  .nav-collapse .nav li a {
+    font-size: 18px !important;
+  }
+  .slide {
+    position: absolute;
+    height: 450px;
+    width:100%;
+  }
+  .carousel-control-prev {
+    left: 60px !important;
+  }
+  #InstallationsSceptiques {
+    width: 37%; !important;
+  }
+  #HydrauliquePhoto {
+    width: 37%; !important;
+  }
+  #GestionEauxPhoto {
+    width: 37%; !important;
+  }
+  #TraitementEauxPhoto {
+    width: 37%; !important;
+  }
+  #LaboratoireAanalysePhoto {
+    width: 37%; !important;
+  }
+  #StabiliteTerrainPhoto {
+    width: 37%; !important;
+  }
+  #vision {
+    min-height: 320px;
+    padding-top: 30px;
+    margin-left: 0 !important;
+  }
+  #valeurs {
+    min-height: 320px;
+    padding-top: 5px !important;
+  }
+  .righty {
+    position: absolute !important;
+    right: 150px;
+  }
+  .lefty {
+    position: absolute !important;
+    left: 50px;
+  }
+  .margin5{
+    margin-top: 0 !important;
+  }
+}
+/* ---------------------------------------
+Mobile à écran moyen max 991px     */
+@media (max-width:991px) {
+  .navbar-collapse {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  .carousel-control-next {
+    right: 60px !important;
+  }
+}
+/* ---------------------------------------
+Mobile à écran moyen max 1024px     */
+@media (max-width:1024px) {
+  .carousel-item {
+    max-width: 420px !important;
+    margin: 0 auto;
+  }
+}
+/* ---------------------------------------
+Petit écran et plus min 991px     */
+@media (min-width: 991px) {
+	.navbar .brand{
+		font-size: 3em !important;
+		margin: 0 0 0 10px !important;
+	}
+	.nav-collapse .nav li a {
+		font-size: 18px !important;
+	}
+	.slide {
+		position: absolute;
+		height: 600px;
+		width:100%;
+	}
+	.carousel-indicators {
+		bottom: 5% !important;
+	}
+  .carousel-inner {
+    background: transparent linear-gradient(to bottom, rgba(220,219,218,1), rgba(255,255,255,1));
+    min-height: 550px;
+  }
+  .carousel-item {
+		height: 650px !important;
+	}
+	.margin5 {
+		margin-top: 50px;
+	}
+	.container{
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	.row {
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+	.right{
+		float: right !important;
+	}
+	.photo {
+		width: 33.5% !important;
+		margin-top: 50px !important;
+	}
+  #vision {
+    margin-left: 0.5%;
+  }
+}
+.span12 {
+  float: none !important;
+	margin: 0 auto !important;
+}
+.navbar .nav li a {
+  padding: 0 !important;
+}
+.navbar {
+  padding: 0 !important;
+  margin-bottom: 0;
+}

@@ -1,0 +1,89 @@
+/*!
+ * Animate Aqua Ingenium
+ * Conception OptrickMedia.com
+ */
+.myFadeIn {
+	position: absolute;
+	animation: myFadeIn 2.5s ease-in 1s backwards,
+				myFadeOut 2s ease-in 9s forwards;
+
+}
+.myTextFadeIn {
+	position: absolute;
+	animation: myFadeIn 4s ease-in 3s backwards,
+				c-slideIn 3s ease-in 2s backwards,
+				myFadeOut 2s ease-in 9s forwards;
+}
+.myTextFadeIn_2 {
+	position: absolute;
+	animation: myFadeIn 4s ease-in 3s backwards,
+				c-slideIn 3s ease-in 4s backwards,
+				myFadeOut 2s ease-in 9s forwards;
+}
+.myFadeIn-2 {
+	position: absolute;
+	animation: myFadeIn 2.5s ease-in 10s forwards,
+				myFadeOut 2s ease-in 16s forwards;
+}
+.myTextFadeIn-2 {
+	position: absolute;
+	animation: myFadeIn 3s ease-in 11s both,
+				c-slideIn 2s ease-in 10s backwards,
+				myFadeOut 2s ease-in 16s forwards;
+}
+
+.myTextFadeIn-2_2 {
+	position: absolute;
+	animation: myFadeIn 4s ease-in 11s backwards,
+				c-slideIn 2s ease-in 11s backwards,
+				myFadeOut 2s ease-in 16s forwards;
+}
+.myFadeIn-3 {
+	position: absolute;
+	animation: myFadeIn 2.5s ease-in 17s forwards,
+				myFade--Out 2s ease-in 29s forwards;
+}
+.myTextFadeIn-3 {
+	position: absolute;
+	animation: myFadeIn 3s ease-in 17.5s both,
+				c-slideIn 2s ease-in 18s backwards,
+				myFade--Out 2s ease-in 23s forwards;
+}
+.myTextFadeIn-3_2 {
+	position: absolute;
+	animation: myFadeIn 4s ease-in 17.5s backwards,
+				c-slideIn 2s ease-in 18.5s both,
+				myFade--Out 2s ease-in 23s forwards;
+}
+.false {
+	opacity: 0;
+}
+#Ingenierie-Carrousel {
+	background: rgb(255,255,255) center no-repeat url(../img/IngenieurEaux_2-Carrousel.jpg);
+	background-size: cover !important;
+}
+#Expert-Carrousel {
+	background: rgb(255,255,255) center no-repeat url(../img/Equipe-Carousel.jpg);
+}
+#Allie-Carrousel {
+	background: rgb(255,255,255) center no-repeat url(../img/allie-Carrousel.jpg);
+	background-size: cover !important;
+}
+@keyframes myFadeIn {
+	from{opacity:0;}
+	to{opacity:1;}
+}
+@keyframes myFadeOut {
+	from{opacity:1;}
+	to{opacity:0;}
+}
+
+@keyframes c-slideIn {
+	0% {
+		transform: translateY(-600px);
+		animation-timing-function: ease-out;
+		}
+	100% {transform: translateY(0px);
+		animation-timing-function: ease-in;
+	}
+}
